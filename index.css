@@ -1,0 +1,634 @@
+/*
+* @Author: lenovo
+* @Date:   2018-12-17 20:23:29
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-01-05 09:37:03
+*/
+a{
+	text-decoration: none;
+	color: #9a9791;
+}
+* {
+
+	padding: 0;
+	margin: 0; 
+}
+.main {
+	width: 1180px;
+	height: 1063px;
+	margin: 0 auto;
+}
+
+.top {
+	width: 1180px;
+	height: 33px;
+	margin: 0 auto;
+	line-height: 33px;
+
+}
+
+.topp1 {
+	font-size: 11px;
+	color: #9a9791;
+	line-height: 33px;
+
+}
+.topleft {
+	width: 150px;
+	height: 33px;
+	float: left;
+}
+
+.topright {
+	line-height: 33px;
+	width: 731px;
+	height: 33px;
+	float: right;
+}
+
+.topImg {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.topp2,.mm,.ww,.remain,.bb,.phone,.hh,.ss,.gouwuche {
+	margin-left: 10px;
+	line-height: 33px;
+	font-size: 14px;
+	color: #9a9791;
+}
+
+.mm {
+	background: url(img/message.jpg) center left no-repeat;
+	padding-left: 17px;
+}
+
+.ww {
+	background: url(img/dingdan.jpg) center left no-repeat;
+	padding-left: 17px;
+}
+
+.phone {
+	background: url(img/phone.png) center left no-repeat;
+	padding-left: 17px;
+}
+
+.gouwuche {
+	background: url(img/gouwuche.jpg) center left no-repeat;
+	padding-left: 21px;
+}
+
+
+/* 导航部分 */
+
+.navigation {
+	width: 1180px;
+	height: 87px;
+	margin-top: 15px;
+}
+
+.logo {
+	/* text-align: center; */
+	vertical-align: middle;
+	width: 254px;
+	height: 87px;
+	float: left;
+}
+
+
+.search {
+	float: left;
+	width: 600px;
+	height: 100px;
+}
+
+.searchinput {
+	float: left;
+	width: 480px;
+	height: 34px;
+	border: solid 3px #fe6c00;
+	margin-left: 50px;
+	vertical-align: middle;
+
+	
+}
+#searchButton {
+	background-color: #fe6c00;
+	border: none;
+	width: 84px;
+	height: 40px;
+	float: left;
+	color: white;
+	font-size: 15px;
+}
+
+.searchBox {
+	margin-top: 15px;
+	height: 40px;
+	width: 700px;
+}
+
+.aBox {
+	width: 700px;
+	height: 20px;
+	margin-left: 50px;
+	margin-top: 2px;
+
+}
+.aBox a{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.searchRight {
+	vertical-align: middle;
+	width: 280px;
+	height: 40px;
+	float: right;
+}
+
+.searchRight p{
+	color: #9a9791;
+}
+.rr{
+	margin-top: 15px;
+	float: right;
+	width: 85px;
+	height: 39px;
+	border: 1px solid #9a9791;
+	border-radius: 3px;
+}
+.rr p  {
+	display: inline-block;
+}
+.rr img{
+	padding-top: 6px;
+	display: block;
+	margin: 0 auto;
+}
+
+.rrr {
+	margin-top: 15px;
+	float: right;
+	width: 90px;
+	height: 39px;
+	border:1px solid #ff4d04;
+	border-radius: 3px;
+	background-color: #ff4d04;
+	line-height: 39px;
+}
+.aBox p{
+	display: inline-block;
+}
+.rrr img{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.rrr p {
+	display: inline-block;
+	color: white;
+}
+.rr p{
+	font-size: 5px;
+}
+
+.nav {
+	float: left;
+	width: 1180px;
+	height: 40px;
+	display: block;
+	background-color: white;
+}
+
+#nav {
+	display: block;
+}
+.nav1 {
+	line-height: 40px;
+	/* vertical-align: middle; */
+	text-align: center;
+	float: left;
+	width: 170px;
+	height: 40px;
+	background-color: #ff4d04;
+	color: white;
+	font-size: 18px;
+}
+.nav2Out {
+	width:1010px;
+	height: 39px;
+	display: block;
+	float:left;
+	border-bottom: 1px solid #ff4d04;
+}
+.nav2{
+	display: inline-block;
+	width: 114px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+}
+
+
+.classify {
+	height: 420px;
+	width: 170px;
+	float: left;
+	border-bottom: 1px solid #ff4d04;
+	/* margin-top: 10px; */
+	clear: both;
+}
+
+.class1 {
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	height: 420px;
+	width: 27px;
+	background-color: #4c4c4a;
+}
+
+.class1 p {
+	padding-top:20px ;
+	margin-top: 20px;
+	color: #ff4d4b;
+}
+
+.class2 {
+	padding-left: 3px;
+	float: left;
+	width: 140px;
+	height: 400px;
+	margin-top: 20px;
+}
+
+
+.class2 a {
+	font-size: 12px;
+	display:inline-block;
+	width: 25px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+/* 设置轮播图容器 */
+
+.container {
+	position: relative;
+	width: 800px;
+	height: 360px;
+	overflow: hidden;
+	box-shadow: 0 0 5px green;
+	display: inline-block;
+	float: left;
+}
+
+.wrap {
+	position: absolute;
+	width: 6400px;
+	height: 360px;
+	z-index: 1;
+}
+
+.container .wrap img {
+	float: left;
+	width: 800px;
+	height: 360px;
+}
+
+.container .buttons {
+	position: absolute;
+	right: 325px;
+	bottom: 30px;
+	width: 230px;
+	height: 10px;
+	z-index: 2;
+	color: red;
+
+}
+
+.buttons span{
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+/* 把buttons下面的span做一个简单的修饰 */
+.buttons span:hover {
+	background-color: #ff4d4b;
+}
+.buttons span.on {
+	background-color: #ff4d;
+}
+
+
+.container .arrow {
+	position: absolute;
+	top: 35%;
+	color: green;
+	padding: 0px 14px;
+	border-radius: 50%;
+	font-size: 50px;
+	z-index: 2;
+	display: none;
+}
+
+.container arrow_left{
+	cursor: pointer;
+	/* width: 100px; */
+	left: 10px;
+	/* height: 100px; */
+}
+
+.container arrow_right {
+	/* width: 100px; */
+	z-index: 2;
+	/* height: 100px; */
+	right: 100px;
+}
+
+.container:hover .arrow {
+	display: block;
+}
+s
+.container .arrow:hover {
+	background-color: black;
+}
+
+.classRight2 {
+	/* background-color: red; */
+	border-left: 1px solid #ff4d4b;
+	width: 208px;
+	height: 360px;
+	float: left;
+	/* background-color: red; */
+}
+
+
+
+.classRight2 .cr1 {
+	width: 209px;
+	height: 41px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #ff6629;
+}
+
+.classRight2 .cr1 span {
+	display: inline-block;
+	line-height: 41px;
+	color: #ff6629;
+	margin-left: 8px;
+}
+
+.cr1 img {
+	margin-top: 6px;
+	display: inline-block;
+}
+
+
+.classRight2 a {
+	display: block;
+	margin-top: 13px;
+}
+
+
+
+.classBottom {
+	width: 170px;
+	height: 128px;
+	/* border: 1px solid red; */
+	clear: left;
+	float: top;
+}
+
+
+.containerBottom {
+	width: 800px;
+	height: 188px;
+	/* border: 1px solid red; */
+	float: top;
+	float: left;
+	display: inline-block;
+}
+
+
+.rightBottom {
+	height: 190px;
+	width: 210px;
+	float: top;
+	float: left;
+}
+
+
+.middle {
+	width: 800px;
+	height: 550px;
+	display: inline-block;
+	float: left;
+}
+
+.left {
+	height: 548px;
+	width: 170px;
+	float: left;
+	/* background-color: red; */
+	/* border-bottom: 1px solid #ff4d04; */
+}
+
+.classBottom a {
+	margin-left: 8px;
+	text-align: left;
+	display: block;
+	vertical-align: middle;
+	line-height: 35px;
+}
+
+.classBottom a:first-child {
+	padding-top: 10px;
+}
+
+.classBottom a span {
+	margin-left: 3px;
+}
+
+
+
+.containerBottom img {
+	display: block;
+	float: left;
+}
+
+.rightBottom img {
+	padding-left: 10px;
+}
+
+.rightBottom a span:last-child {
+	font-size: 13px;
+	color: #ff4d04;
+}
+
+.rightBottom a img {
+	margin-right: 5px;
+}
+
+.rightBottom a {
+	display: block;
+	padding-top: 8px;
+}
+
+.rightBottom input {
+	display: block;
+	width: 120px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.rightBottom select {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 60px;
+	height: 25px;
+}
+
+.rightBottom button {
+	margin-left: 10px;
+	margin-top: 10px;
+	display: block;
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+	border:  none;
+	background-color: #ff4d04;
+	color: white;
+	font-size: 15px;
+}
+
+
+#fee {
+	font-size: 20px;
+	color: #ff4d04;
+}
+
+.b1 {
+	width: 180px;
+	height: 180px;
+	float: left;
+	border: 1px solid red;
+	clear: left;
+}
+
+#bimg {
+	display: inline-block;
+	float: left;
+}
+
+
+.b3 {
+	text-align: center;
+	float: left;
+	width: 140px;
+	height: 180px;
+	/* border: 1px solid red; */
+}
+
+.b3 ul li{
+	list-style: none;
+	margin-top: 12px;
+	font-size: 15px;
+	color: #66656;
+}
+
+
+
+.test {
+	width: 100px;
+	height: 180px;
+	float: left;
+}
+
+
+.bottomAll {
+	text-align: center;
+	clear: both;
+	width: 1180px;
+	height: 170px;
+}
+
+
+.bottomAll a {
+	margin-top: 10px;
+	display: inline-block;
+	text-align: center;
+
+}
+
+
+.bottomAll p {
+	margin-top: 10px;
+	font-size: 10px;
+	color: #66656;
+}
+
+.bottomAll img {
+	margin-top: 20px;
+}
+#bimg {
+	display: inline-block;
+	float: left;
+}
+
+
+.sus {
+	position: static;
+	width: 1180px;
+	height: 160px;
+	z-index: 2;
+	background-color: white;
+}
+
+
+
+.leftt{
+	float: right;
+	position: absolute;
+	float: right;
+	right: -80px;
+	top: 200px;
+	background-color: red;
+}
+.right2 {
+	clear: right;
+	position: absolute;
+	/* top: 100px; */
+	float: right;
+	top: 250px;
+	right: -17px;
+	background-color: red;
+}
+.right3 {
+	position: absolute;
+	float: right;
+	right: -80px;
+	top: 395px;
+}
+
+.right4 {
+	position: absolute;
+	right: -80px;
+	top: 445px;
+	float: right;
+}
+.con1 {
+	overflow: hidden;
+}
+
+
